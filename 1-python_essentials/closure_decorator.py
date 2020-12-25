@@ -25,4 +25,5 @@ def add(a, b, c=10):
 
 counter_add = count(add)
 print(counter_add.__name__)
+print(help(add))
 print(counter_add(10, 20, 30))
